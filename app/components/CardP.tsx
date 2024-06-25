@@ -21,7 +21,7 @@ const CardP = ({url, techs, title, desc, link} : Props) => {
         </div>
         <div className="px-4 pt-1 flex">
          <img className="relative h-[25px] mb-4 lg:h-[29px] md:h-[29px] lg:mb-0 md:mb-0" src={techs} alt="icons"/>
-         <Link href={link}>
+         <Link href={link} target="_blank">
             <button className="bg-[#1ED760] hover:bg-[#1ED760] text-sm text-white font-bold py-1 px-6 h-[30px] w-[100px] ml-[190px] flex mb-5 rounded z-10 ">
                    Confira
             </button>

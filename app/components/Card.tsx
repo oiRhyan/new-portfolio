@@ -1,5 +1,6 @@
 import Image from "next/image"
 import styles from "../Glass.module.css"
+import Link from "next/link";
 
 const Card = () => {
     return (
@@ -14,9 +15,12 @@ const Card = () => {
       </div>
       <div className="px-4 pt-1 flex">
          <img className="relative h-[29px]" src={"https://skillicons.dev/icons?i=react,nextjs,tailwind"} alt="icons"/>
-         <button className="bg-[#1ED760] hover:bg-[#1ED760] text-sm text-white font-bold py-1 px-7 h-[30px] ml-[90px] flex mb-5 rounded z-10 lg:py-1 lg:px-2 md:py-1 md:px-2 md:ml-[189px] lg:ml-[189px] md:h-[200px] lg:h-[30px] lg:ml-[200px] ">
+         <Link href={"https://stringo.vercel.app/login"} target="_blank">
+          <button className="bg-[#1ED760] hover:bg-[#1ED760] text-sm text-white font-bold py-1 px-7 h-[30px] ml-[90px] flex mb-5 rounded z-10 lg:py-1 lg:px-2 md:py-1 md:px-2 md:ml-[189px] lg:ml-[189px] md:h-[200px] lg:h-[30px] lg:ml-[200px] ">
              Saiba Mais!
-        </button>
+          </button>
+         </Link>
+         
       </div>
         </div>
         </>
