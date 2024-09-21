@@ -11,6 +11,7 @@ const CalculadoraIMC = "Calculadora de IMC desenvolvida durante o curso de Desen
 const JokenPoText = "Jogo Jokenpo adaptado para mobile utilizando Java, o jogo consiste em que o jogador opite por uma das três opções pedra, papel ou tesoura, em seguida, o código da CPU irá randomizar uma opção de escolha e ao fim será comparada com o do jogador."
 const AlcoolText = "Este projeto é mais um dos vários desenvolvidos durante o curso de desenvolvimento para Android. Seu objetivo é permitir que o usuário insira informações sobre os preços da gasolina e do álcool, assim podendo encontrar o melhor custo beneficio."
 const EletricCarDesc = "Este projeto, desenvolvido durante a formação de Android Developer pela Digital Innovation One, tem como objetivo treinar o gerenciamento eficiente de dados locais e recursos no Android. Ele permite salvar carros e comparar suas potências de acordo com os selecionados."
+const GitHubDesc = "Projeto desenvolvido com o foco de executar os recursos de Intent e persistências de dados por LifecycleScope do AndroidKTX, nele você poderá recuperar dados de qualquer desenvolvedor que esteja cadastrado no GitHub e visualizar seus projetos apartir do navegador. "
 
 
 const GitHub = "https://skillicons.dev/icons?i=github"
@@ -20,6 +21,7 @@ const IMC = "https://github.com/oiRhyan/app-calculadora-imc"
 const Jokenpo = "https://github.com/oiRhyan/app-jokenpo"
 const Gasolina = "https://github.com/oiRhyan/app_alcool_ou_gasolina"
 const Eletric  = "https://github.com/oiRhyan/eletric-car-project"
+const GitHubProject = "https://github.com/oiRhyan/githubchallenge-dio"
 
 
 export default function Code() {
@@ -32,6 +34,7 @@ export default function Code() {
               <CardP title={"What If World Ended"} techs={"https://skillicons.dev/icons?i=cs,unity,motion"} url={"/images/what-if-banner.png"} desc={WhatIfDesc} link="https://gamejolt.com/games/whatifworld/667617"/>
               <CardP title={"Bipa: Conding Challenge"} techs={"https://skillicons.dev/icons?i=kotlin,androidstudio"} url={"/images/bipa.png"} desc={NetflixDesc} link="https://github.com/oiRhyan/bipa-coding-challenge-app" />
               <CardP title={"Eletric Car: DIO Challenge"} techs={"https://skillicons.dev/icons?i=kotlin,androidstudio,sqlite"} url={"/images/eletriccarappbanner.png"}desc={EletricCarDesc} link={Eletric} />
+              <CardP title={"Github : Project Viewer"} techs={"https://skillicons.dev/icons?i=kotlin,androidstudio,github"} url={"/images/githubprojectbanner.png"}desc={GitHubDesc} link={GitHubProject} />
               <CardP title={"Calculadora de IMC para Android"} techs={"https://skillicons.dev/icons?i=kotlin,androidstudio,motion"} url={"/images/imc_banner.png"} desc={CalculadoraIMC} link="https://github.com/oiRhyan/app-calculadora-imc" />
               <CardP title={"Jokenpo para Android"} techs={"https://skillicons.dev/icons?i=java,androidstudio,motion"} url={"/images/jokenpo-mobile.png"} desc={JokenPoText} link={Jokenpo} />
               <CardP title={"Álcool ou Gasolina : Android App"} techs={"https://skillicons.dev/icons?i=kotlin,androidstudio,motion"} url={"/images/alcool.png"} desc={AlcoolText} link={Gasolina} />
