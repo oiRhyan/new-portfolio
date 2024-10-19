@@ -16,7 +16,7 @@ const BackgroundSound = ({ src } : Props) => {
   }, []);
 
   return (
-    <audio ref={audioRef} loop >
+    <audio ref={audioRef} loop>
       <source src={src} type="audio/mp3" />
       Your browser does not support the audio element.
     </audio>

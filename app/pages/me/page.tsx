@@ -25,11 +25,11 @@ export default function Me() {
         </div>
         <div className="flex-col gap-10">
           <div className={`flex h-[250px] w-[450px] ml-3 ${styles.glass}`}>
-            <Image src="/images/certificacoes.png" alt="AndroidGIF" layout="fill" className="rounded-xl" style={{ objectFit: 'cover' }} />
-            <Image src={"/images/android-certificated-logo.gif"} alt="AndroidCertificate" height={70} width={50} className="ml-[210px] mt-10 w-[600px] h-[190px] z-10" unoptimized/>
+            <Image src="/images/certificacoes.png" alt="AndroidCerticates" layout="fill" className="rounded-xl" style={{ objectFit: 'cover' }} />
           </div>
-          <div className={`flex h-[230px] w-[450px] ml-3 ${styles.glass} mt-3`}>
-          <Image src="/images/quem-sou-eu.png" alt="Eu" layout="fill" className="rounded-xl" style={{ objectFit: 'cover' }} /> 
+          <div className={`flex h-[230px] w-[450px] ml-3 ${styles.glass} mt-3 overflow-hidden`}>
+          <Image src="/images/quem-sou-eu.png" alt="Eu" layout="fill" className="rounded-xl" style={{ objectFit: 'cover' }} />
+            <Image src="/images/mascot_animation.gif" alt="Eu" layout="fill" className="rounded-xl ml-[180px] mt-[35px] overflow-hidden" style={{ objectFit: 'cover' }} /> 
           </div>
         </div>
         <div className="flex-col gap-10">
