@@ -18,7 +18,7 @@ export default function Me() {
              <div className="flex gap-4 justify-center items-center mt-3">
               <MiniCards imageUrl="/images/badge-android-studio.svg" text="Introdução ao Android Studio" />
               <MiniCards imageUrl="/images/badge-google.svg" text="Google I/O 2024" />
-              <MiniCards imageUrl="/images/nlwexpertevent.png" text="Rocktseat NLW Expert" />
+              <MiniCards imageUrl="/images/nlwexpertevent.png" text="SEBRAE: Ideias Empreendedoras" />
              </div>
           
           </div>
