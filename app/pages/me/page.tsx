@@ -11,6 +11,7 @@ export default function Me() {
       transition={{ ease: "easeOut", duration: 0.5 }} initial={{opacity: 0}} whileInView={{opacity: 1}}>
         <div className="flex flex-col h-screen justify-center items-center">
           <div className={`${styles.glass} h-[500px] w-[300px] justify-center items-center`}>
+           <Image src="/images/backgroundperfil.png" alt="AndroidCerticates" layout="fill" className="rounded-xl" style={{ objectFit: 'cover' }}/>
            <Avatar img="/images/perfil.jpg" alt="Avatar" rounded className="rounded-full h-[140px] w-[140px] m-auto mt-6"/>
              <h1 className="text-white mt-5 ml-[75px]"> T E C N O L O G I A S  </h1>
            <Image src={"https://skillicons.dev/icons?i=html,css,javascript,java,kotlin,react,nextjs,tailwind,kali,mysql,firebase,git,gradle,androidstudio&perline=7"} height={240} width={240} alt="tecs" className="m-auto mt-4" />
