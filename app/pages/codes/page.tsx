@@ -32,7 +32,7 @@ export default function Code() {
         <motion.div className={`flex gap-5 overflow-x-scroll overflow-y-hidden w-full py-4 scroll-smooth ml-6 mt-3`} animate={{ x: 0 }}
   transition={{ ease: "easeOut", duration: 0.5 }} initial={{opacity: 0}} whileInView={{opacity: 1}}>
             <div className="flex gap-5">
-            <CardP title={"Nexa: Cinemate"} techs={"https://skillicons.dev/icons?i=kotlin,ktor,androidstudio,firebase"} url={"/images/nexa_cinemate.png"} desc={Cinemate} link="https://github.com/oiRhyan/stringo-app-music" />
+            <CardP title={"Nexa: Cinemate"} techs={"https://skillicons.dev/icons?i=kotlin,ktor,androidstudio,firebase"} url={"/images/nexa_cinemate.png"} desc={Cinemate} link="https://github.com/oiRhyan/nexa-cinemate" />
               <CardP title={"Stringo: Concept Music App"} techs={"https://skillicons.dev/icons?i=react,nextjs,tailwind,motion"} url={"/images/banner-1-image.png"} desc={StringoDesc} link="https://github.com/oiRhyan/stringo-app-music" />
               <CardP title={"What If World Ended"} techs={"https://skillicons.dev/icons?i=cs,unity,motion,motion"} url={"/images/what-if-banner.png"} desc={WhatIfDesc} link="https://gamejolt.com/games/whatifworld/667617"/>
               <CardP title={"Bipa: Conding Challenge"} techs={"https://skillicons.dev/icons?i=kotlin,androidstudio,motion,motion"} url={"/images/bipa.png"} desc={NetflixDesc} link="https://github.com/oiRhyan/bipa-coding-challenge-app" />
