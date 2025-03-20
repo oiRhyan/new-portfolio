@@ -15,7 +15,7 @@ const Card = () => {
       </div>
       <div className="px-4 pt-1 flex">
          <img className="relative h-[29px]" src={"https://skillicons.dev/icons?i=kotlin,ktor,androidstudio,firebase"} alt="icons"/>
-         <Link href={"https://stringo.vercel.app/login"} target="_blank">
+         <Link href={"https://github.com/oiRhyan/nexa-cinemate"} target="_blank">
           <button className="bg-[#1ED760] hover:bg-[#1ED760] text-sm text-white font-bold py-1 px-7 h-[30px] ml-[90px] flex mb-5 rounded z-10 lg:py-1 lg:px-2 md:py-1 md:px-2 md:ml-[160px] lg:ml-[160px] md:h-[200px] lg:h-[30px] lg:ml-[160px] ">
              Saiba Mais!
           </button>
